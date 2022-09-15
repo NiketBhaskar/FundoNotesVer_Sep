@@ -32,7 +32,7 @@ class LoginFragment : Fragment() {
             val firstFragment = LoginFragment()
             val fragmentManager = fragmentManager
             val fragmentTransaction = fragmentManager?.beginTransaction()
-            fragmentTransaction.replace()
+
 
         }
         return binding.root
