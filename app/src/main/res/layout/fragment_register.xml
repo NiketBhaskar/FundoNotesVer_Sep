@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+
+    tools:context=".RegisterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@color/purple_700"
+        android:text="@string/application_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="40dp"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Register" />
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="10dp"
+            android:textSize="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Username"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="10dp"
+            android:textSize="20dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="Email"/>
+
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="10dp"
+            android:textSize="20dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+
+        <EditText
+            android:id="@+id/etConfPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="10dp"
+            android:textSize="20dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Confirm Password"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Register" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
