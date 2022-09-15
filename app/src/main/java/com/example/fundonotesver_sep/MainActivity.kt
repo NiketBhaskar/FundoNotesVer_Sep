@@ -8,7 +8,7 @@ import com.example.fundonotesver_sep.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     private lateinit var binding:ActivityMainBinding
     val fragmentManager: FragmentManager = supportFragmentManager
-
+    var gitDemo = "git demo"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
